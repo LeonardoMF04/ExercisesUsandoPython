@@ -1,0 +1,7 @@
+lista_de_multiplos = []
+
+for i in range(2000,3201):
+        if (i % 7 == 0) and (i % 5 != 0):
+            lista_de_multiplos.append(str(i))
+
+print(','.join(lista_de_multiplos))
