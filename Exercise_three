@@ -1,0 +1,7 @@
+numeros = (input("Escreva a sequência de números: "))
+
+dividindo = numeros.split(",") #split define o separador dos numeros, que no caso é separado por vírgulas e entre " "
+t = tuple(dividindo) # Tuple é usado para armazenar vários itens em uma só variável.
+
+print(dividindo) # printando os valores com o formato definido no split [',']
+print(t) #printando os valores com o formato tuple entre (',')
